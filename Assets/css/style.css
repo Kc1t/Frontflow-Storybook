@@ -15,6 +15,13 @@ body{
     background-color: #FAEFE3;
 }
 
+h4,h5{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif ;
+    display: flex;
+    justify-content: center;
+}
+
 .card-image {
 	display: block;
 	min-height: 7rem; /* layout hack */
@@ -24,13 +31,34 @@ body{
     border-radius: 24px 24px 0px 0px;
 }
 
+.card-image img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 16px;
+    width: 2.5rem;
+}
+
+
 .card-image p{
     color: #fff;
     font-family: 'Montserrat';
-    font-size: 0.9rem;
-    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+    padding: 15px 9.8px 15px 19px;
+    font-weight: 400;
 }
 
+.card-image h4{
+    padding-top: 19px;
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+.card-image h5{
+    padding-right: 110px;
+    font-size: 0.7rem;
+    opacity: 0.5;
+    font-weight: 400;
+}
 
 
 .card-list {
@@ -53,6 +81,7 @@ body{
 }
 
 
+
 .card-description {
     max-height: 5rem;
     background-color: #fff;
@@ -64,8 +93,10 @@ body{
 }
 
 .card-description input{
-    margin-left: 2rem;
-
+    margin-left: 1rem;
+    padding: 5px 5px 5px 5px;
     border:none;
     outline-width: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
