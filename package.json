@@ -1,0 +1,35 @@
+{
+  "name": "frontwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kc1t/Frontwork-Interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kc1t/Frontwork-Interview/issues"
+  },
+  "homepage": "https://github.com/Kc1t/Frontwork-Interview#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack4": "^6.5.12",
+    "@storybook/html": "^6.5.12",
+    "@storybook/manager-webpack4": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5"
+  },
+  "dependencies": {}
+}
